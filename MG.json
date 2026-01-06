@@ -8,7 +8,7 @@
 				"authors": [
 					"Man3500"
 				],
-				"version": "0.2",
+				"version": "0.3",
 				"color": "a68570"
 			}
 		],
@@ -55,7 +55,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Rapid Reflexes|Artificer||Magic Gunner|Magic Gunner|3"
+					"subclassFeature": "Standoff|Artificer||Magic Gunner|Magic Gunner|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -138,7 +138,7 @@
 			]
 		},
 		{
-			"name": "Rapid Reflexes",
+			"name": "Standoff",
 			"source": "Magic Gunner",
 			"className": "Artificer",
 			"classSource": "PHB",
@@ -147,7 +147,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you take damage from a creature within 30 feet of you, you can take a Reaction to shot that creature with your primary weapon."
+				"When you take damage from a creature within 30 feet of you, you can take a Reaction to shoot that creature with your primary weapon."
 			]
 		},
         {
@@ -282,19 +282,6 @@
 			"entries": [
 				"This feature requires an Action and half of your movement speed. You prepare a multiple guaranteed shot on any creature of your choice that you can see, up to 8. On your next turn, you can take the {@action Attack|xphb} Action, you can discharge the magazines on the creatures selected still in sight. Shots made by this ability don't require Attack Rolls and you can't shoot the same creature two times.",
 				"Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|xphb}."
-			]
-		},
-		{
-			"name": "Lightning Reload",
-			"source": "Magic Gunner",
-			"className": "Artificer",
-			"classSource": "PHB",
-			"subclassShortName": "Magic Gunner",
-			"subclassSource": "Magic Gunner",
-			"level": 15,
-			"header": 2,
-			"entries": [
-				"Starting at 15th level, you can reload any firearm as a bonus action."
 			]
 		},
 		{
