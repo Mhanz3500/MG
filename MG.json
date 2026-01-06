@@ -88,19 +88,19 @@
 								"rows": [
 									[
 										"3",
-										"{@spell Shield}, {@spell Spellfire Flare|frhof}"
+										"{@spell Shield|xphb}, {@spell Spellfire Flare|frhof}"
 									],
 									[
 										"5",
-										"{@spell Scorching Ray}, {@spell Find Steed}"
+										"{@spell Scorching Ray|xphb}, {@spell Find Steed|xphb}"
 									],
 									[
 										"9",
-										"{@spell Counterspell}, {@spell Lightning Bolt}"
+										"{@spell Counterspell|xphb}, {@spell Lightning Bolt|xphb}"
 									],
 									[
 										"13",
-										"{@spell Greater Invisibility}, {@spell Vitriolic Sphere|xphb}"
+										"{@spell Greater Invisibility|xphb}, {@spell Vitriolic Sphere|xphb}"
 									],
 									[
 										"17",
