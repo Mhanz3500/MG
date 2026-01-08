@@ -13,7 +13,7 @@
 			}
 		],
 		"dateAdded": 1767741836,
-		"dateLastModified": 1767751836,
+		"dateLastModified": 1767761836,
 		"edition": "one"
 	},
 	"subclass": [
@@ -47,19 +47,19 @@
 					"A Magic Gunner is a firearm user that can shoot magical bullets.",		
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Magic Gunner Spells|Artificer||Magic Gunner|Magic Gunner|3"
+					"subclassFeature": "Magic Gunner Spells|Artificer|EFA|Magic Gunner|Magic Gunner|3"
 				},		
                 {
 					"type": "refSubclassFeature",
-					"subclassFeature": "Concealed Shot|Artificer||Magic Gunner|Magic Gunner|3"
+					"subclassFeature": "Concealed Shot|Artificer|EFA|Magic Gunner|Magic Gunner|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Standoff|Artificer||Magic Gunner|Magic Gunner|3"
+					"subclassFeature": "Standoff|Artificer|EFA|Magic Gunner|Magic Gunner|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Harmonica Firearm|Artificer||Magic Gunner|Magic Gunner|3"
+					"subclassFeature": "Harmonica Firearm|Artificer|EFA|Magic Gunner|Magic Gunner|3"
 				}
 			]
 		},
