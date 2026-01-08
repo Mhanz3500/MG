@@ -8,12 +8,12 @@
 				"authors": [
 					"Man3500"
 				],
-				"version": "0.4.1",
+				"version": "0.4.2",
 				"color": "a68570"
 			}
 		],
 		"dateAdded": 1767741836,
-		"dateLastModified": 1767761836,
+		"dateLastModified": 1767762836,
 		"edition": "one"
 	},
 	"subclass": [
@@ -120,7 +120,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"A Ranged weapon you touch is made supernaturally subtle. For the duration, when you make a ranged attack using the weapon, the weapon or ammunition you're using becomes invisible while in flight and the weapon becomes silent. If the weapon produces smoke or light, the spell suppresses these effects. The weapon or projectile you're using becomes visible again after the attack hits or misses. If you are hidden and the target is 80 feet or further from you, the attack doesn't reveal your location."
+				"A Ranged weapon you touch is made supernaturally subtle. For 1 minute, when you make a ranged attack using the weapon, the weapon or ammunition you're using becomes invisible while in flight and the weapon becomes silent. If the weapon produces smoke or light, the spell suppresses these effects. The weapon or projectile you're using becomes visible again after the attack hits or misses. If you are hidden and the target is 80 feet or further from you, the attack doesn't reveal your location."
 			]
 		},
 		{
