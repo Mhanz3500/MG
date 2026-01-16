@@ -59,7 +59,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Harmonica Firearm|Artificer|EFA|Magic Gunner|Magic Gunner|3"
+					"subclassFeature": "Tools of the Trade|Artificer|EFA|Magic Gunner|Magic Gunner|3"
 				}
 			]
 		},
@@ -124,7 +124,7 @@
 			]
 		},
 		{
-			"name": "Harmonica Firearm",
+			"name": "Tools of the Trade",
 			"source": "Magic Gunner",
 			"className": "Artificer",
 			"classSource": "EFA",
@@ -133,8 +133,13 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You can build a magazine for your firearms, it requires 4 days to build and 100MO worth of materials.",
-				"The magazine can contain 4 bullets for a pistol and 6 bullets for a musket. The pistol will look like a revolver, the musket will look like an harmonica rifle. Both require an Action to {@itemProperty rld|xdmg|Reload}."
+				"You gain the following benefits.
+
+Ranged Weaponry. You gain proficiency with Martial Ranged weapons.
+
+Tool Proficiency. You gain proficiency with Woodcarver's Tools. If you already have this proficiency, you gain proficiency with one other type of Artisan's Tools of your choice.
+
+Wand Crafting. When you craft a magic Wand, the amount of time required to craft it is halved."
 			]
 		},
 		{
