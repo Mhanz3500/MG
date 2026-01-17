@@ -8,12 +8,12 @@
 				"authors": [
 					"Man3500"
 				],
-				"version": "0.5.0",
+				"version": "0.6.0",
 				"color": "a68570"
 			}
 		],
 		"dateAdded": 1767741836,
-		"dateLastModified": 1877772836,
+		"dateLastModified": 1922772836,
 		"edition": "one"
 	},
 	"subclass": [
@@ -221,7 +221,7 @@
                         ],
                         [
                             "Necrotic",
-                            "+1d4 Necrotic damage. On a hit, the target must succeed on a Wisdom saving throw or have the {@condition Frightened} condition for 1 minute. At the end of each of its turns, the target repeats the save, ending the condtion on a success."
+                            "On a hit, the target can't regain Hit Points until the end of your next turn."
                         ],
                         [
                             "Radiant",
