@@ -8,12 +8,12 @@
 				"authors": [
 					"Man3500"
 				],
-				"version": "0.4.3",
+				"version": "0.5.0",
 				"color": "a68570"
 			}
 		],
 		"dateAdded": 1767741836,
-		"dateLastModified": 1777772836,
+		"dateLastModified": 1877772836,
 		"edition": "one"
 	},
 	"subclass": [
@@ -27,9 +27,8 @@
 				"Magic Gunner|Artificer|EFA|Magic Gunner|Magic Gunner|3",
 				"Extra Attack|Artificer|EFA|Magic Gunner|Magic Gunner|5",
                 "Infused Projectiles|Artificer|EFA|Magic Gunner|Magic Gunner|5",
-                "Projectile Crafting|Artificer|EFA|Magic Gunner|Magic Gunner|5",
-				"Deadeye|Artificer|EFA|Magic Gunner|Magic Gunner|9",
-				"Magical Firearm|Artificer|EFA|Magic Gunner|Magic Gunner|15"
+                "Projectile Crafting|Artificer|EFA|Magic Gunner|Magic Gunner|9",
+				"Deadeye|Artificer|EFA|Magic Gunner|Magic Gunner|15"
 			]
 		}
 	],
@@ -45,6 +44,11 @@
 			"entries": [
 					"{@i Specialized in Enchanted Firearms.}",
 					"A Magic Gunner is a firearm user that can shoot magical bullets.",		
+				
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Artificer|EFA|Magic Gunner|Magic Gunner|3"
+				},
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Magic Gunner Spells|Artificer|EFA|Magic Gunner|Magic Gunner|3"
@@ -56,10 +60,6 @@
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Standoff|Artificer|EFA|Magic Gunner|Magic Gunner|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Tools of the Trade|Artificer|EFA|Magic Gunner|Magic Gunner|3"
 				}
 			]
 		},
@@ -133,13 +133,28 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You gain the following benefits.
-
-Ranged Weaponry. You gain proficiency with Martial Ranged weapons.
-
-Tool Proficiency. You gain proficiency with Woodcarver's Tools. If you already have this proficiency, you gain proficiency with one other type of Artisan's Tools of your choice.
-
-Wand Crafting. When you craft a magic Wand, the amount of time required to craft it is halved."
+				"You gain the following benefits.",
+						{
+							"type": "entries",
+							"name": "Guns&Ammo",
+							"entries": [
+								"You gain proficiency with {@filter Firearms|items|type=Firearm}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Tool Proficiency",
+							"entries": [
+								"You gain proficiency with {@item Smith's Tools|xphb}. If you already have this proficiency, you gain proficiency with one other type of {@item Artisan's Tools|xphb} of your choice."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Weapon Crafting",
+							"entries": [
+								"When you craft a nonmagical or magic weapon, the amount of time required to craft it is halved."
+							]
+						}
 			]
 		},
 		{
@@ -227,7 +242,7 @@ Wand Crafting. When you craft a magic Wand, the amount of time required to craft
 			"classSource": "EFA",
 			"subclassShortName": "Magic Gunner",
 			"subclassSource": "Magic Gunner",
-			"level": 5,
+			"level": 9,
 			"header": 2,
 			"entries": [
 				"You are able to produce bullets yourself, time and costs are described by the table.",
@@ -249,7 +264,7 @@ Wand Crafting. When you craft a magic Wand, the amount of time required to craft
                     "rows": [
                         [
                             "Acid",
-                            "+1d6 Acid damage.",
+                            "On a hit, any creature have Advantage on attack rolls against that creature before the end of your next turn.",
                             "30 minutes",
                             "5 gp"
                         ],
@@ -282,24 +297,11 @@ Wand Crafting. When you craft a magic Wand, the amount of time required to craft
 			"classSource": "EFA",
 			"subclassShortName": "Magic Gunner",
 			"subclassSource": "Magic Gunner",
-			"level": 9,
+			"level": 15,
 			"header": 2,
 			"entries": [
 				"This feature requires an Action and half of your movement speed. You prepare a multiple guaranteed shot on any creature of your choice that you can see, up to 8. On your next turn, you can take the {@action Attack|xphb} Action, you can discharge the magazines on the creatures selected still in sight. Shots made by this ability don't require Attack Rolls and you can't shoot the same creature two times.",
 				"Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|xphb}."
-			]
-		},
-		{
-			"name": "Magical Firearm",
-			"source": "Magic Gunner",
-			"className": "Artificer",
-			"classSource": "EFA",
-			"subclassShortName": "Magic Gunner",
-			"subclassSource": "Magic Gunner",
-			"level": 15,
-			"header": 2,
-			"entries": [
-				"You can feel the mechanical mind of your firearms, making you able to attune to them. Attunment to a firearm gives you the ability to {@itemProperty rld|xdmg|Reload} without spending an Action. Bullets of your choice instantly teleport inside your weapon. The bullets must be on your inventory."
 			]
 		}
 	]
