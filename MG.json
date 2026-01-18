@@ -8,12 +8,12 @@
 				"authors": [
 					"Man3500"
 				],
-				"version": "0.6.0",
+				"version": "0.6.1",
 				"color": "a68570"
 			}
 		],
 		"dateAdded": 1767741836,
-		"dateLastModified": 1922772836,
+		"dateLastModified": 1932772836,
 		"edition": "one"
 	},
 	"subclass": [
@@ -150,9 +150,9 @@
 						},
 						{
 							"type": "entries",
-							"name": "Weapon Crafting",
+							"name": "Firearm Crafting",
 							"entries": [
-								"When you craft a nonmagical or magic weapon, the amount of time required to craft it is halved."
+								"When you craft a nonmagical or magic firearm and ammutions, the amount of time required to craft it is halved."
 							]
 						}
 			]
@@ -265,25 +265,25 @@
                         [
                             "Acid",
                             "On a hit, any creature have Advantage on attack rolls against that creature before the end of your next turn.",
-                            "30 minutes",
+                            "1 hour",
                             "5 gp"
                         ],
                         [
                             "Poison",
                             "On a hit, the target must succeed on a Constitution saving throw or have the {@condition Poisoned} condition for 1 minute. At the end of each of its turns, the target repeats the save, ending the condtion on a success.",
-                            "30 minutes",
+                            "1 hour",
                             "5 gp"
                         ],
                         [
                             "Adamantine (Variant)",
                             "+1d10 Piercing damage. {@variantrule Resistance|xphb} to Piercing damage is ignored. {@variantrule Immunity|xphb} of the target to Piercing damage becomes Resistance. This bullet cannot be infused with magic.",
-                            "2 hours",
+                            "4 hours",
                             "20 gp"
                         ],
                         [
                             "Explosive",
                             "Each creature in a 5-foot-radius {@variantrule Sphere [area of effect]|xphb|Sphere} centered on the target makes a DC 14 Dexterity saving throw, taking 2d6 Fire damage on a failed save or half as much damage on a successful one. If magic is infused on it, roll a {@dice 1d4}, on a 1 the bullet explodes and the infuser takes 9 Fire damage.",
-                            "3 hours",
+                            "6 hours",
                             "50 gp"
                         ]
                     ]
