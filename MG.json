@@ -8,12 +8,12 @@
 				"authors": [
 					"Man3500"
 				],
-				"version": "0.6.1",
+				"version": "0.6.2",
 				"color": "a68570"
 			}
 		],
 		"dateAdded": 1767741836,
-		"dateLastModified": 1932772836,
+		"dateLastModified": 1932772896,
 		"edition": "one"
 	},
 	"subclass": [
@@ -152,7 +152,7 @@
 							"type": "entries",
 							"name": "Firearm Crafting",
 							"entries": [
-								"When you craft a nonmagical or magic firearm and ammutions, the amount of time required to craft it is halved."
+								"When you craft a nonmagical or magic {@filter Firearm|items|type=Firearm} and {@filter Ammunitions|items|type=Ammunition}, the amount of time required to craft it is halved."
 							]
 						}
 			]
